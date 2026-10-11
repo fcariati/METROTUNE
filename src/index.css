@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-100 text-slate-900 antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Metronome / general slider styling */
+.metronome-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 8px;
+  border-radius: 9999px;
+  background: #cbd5e1;
+  outline: none;
+}
+
+.metronome-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #1e293b;
+  cursor: pointer;
+  border: 3px solid #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.1s;
+}
+
+.metronome-slider::-webkit-slider-thumb:hover {
+  transform: scale(1.15);
+}
+
+.metronome-slider::-webkit-slider-thumb:active {
+  transform: scale(1.3);
+}
+
+.metronome-slider::-moz-range-thumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #1e293b;
+  cursor: pointer;
+  border: 3px solid #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Dark slider variant (on dark backgrounds) */
+.metronome-slider.dark {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.metronome-slider.dark::-webkit-slider-thumb {
+  background: #f59e0b;
+  border-color: #ffffff;
+}
+
+.metronome-slider.dark::-moz-range-thumb {
+  background: #f59e0b;
+  border-color: #ffffff;
+}

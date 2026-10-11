@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Timpani Studio</string>
+    <string name="title_activity_main">Timpani Studio</string>
+    <string name="package_name">com.timpanistudio.app</string>
+    <string name="custom_url_scheme">com.timpanistudio.app</string>
+</resources>
