@@ -1,0 +1,10 @@
+{
+  "id": "/METROTUNE/",
+  "name": "Timpani Studio Metrotune",
+  "short_name": "Metrotune",
+  "description": "Metronomo e intonatore per timpani",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "standalone",
+  "start_url": "./index.html"
+}
