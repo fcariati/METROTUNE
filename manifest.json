@@ -9,15 +9,9 @@
   "start_url": "./index.html",
   "icons": [
     {
-      "src": "https://raw.githubusercontent.com/vitejs/vite/main/docs/public/logo.svg",
-      "sizes": "192x192",
+      "src": "./vite.svg",
+      "sizes": "512x512",
       "type": "image/svg+xml",
-      "purpose": "any"
-    },
-    {
-      "src": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Python_logo_and_wordmark.png",
-      "sizes": "512x512 192x192",
-      "type": "image/png",
       "purpose": "any maskable"
     }
   ]
